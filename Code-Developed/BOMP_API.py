@@ -74,10 +74,10 @@ def result(job_id):
     resp3=session.get(url)       
     r=re.search("barrel outer membrane proteins predicted is: .{5}",resp3.text)
     textres=r.group(0)
-    print(textres)
+    #print(textres)
     res=re.findall(r'\d+',textres)
     finalres=int(res[0])
-    print(finalres)
+    #print(finalres)
     
     return finalres
 
