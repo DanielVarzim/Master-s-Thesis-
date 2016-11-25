@@ -39,7 +39,7 @@ def run(seq,evalue="1.0", ga="0"):
     #print(job_content)
     
     job=re.findall("http://pfam.xfam.org/search/sequence/resultset/.*?\"", job_content)
-    print(job[0].strip("\""))
+    #print(job[0].strip("\""))
     job_id=job[0].strip("\"")
     return job_id
 
