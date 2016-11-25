@@ -161,7 +161,7 @@ if __name__ == "__main__":
              format="short",
             stype="protein",
             sequence="MPPMLSGLLARLVKLLLGRHGSALHWRAAGAATVLLVIVLLAGSYLAVLAERGAPGAQLITYPRALWWSVETATTVGYGDLYPVTLWGRLVAVVVMVAGITSFGLVTAALATWFVGREQERRGHFVRHSEKAAEEAYTRTTRALHERFDRLERMLDDNRR"))
-    
+     
     print ("#################################################")
     print ("status function")
     print (status("phobius-R20160817-165435-0672-31738254-oy"))
@@ -177,3 +177,4 @@ if __name__ == "__main__":
     print (" result_type = sequence")
     print (result(job_id="phobius-R20160817-165435-0672-31738254-oy",
         result_type="sequence"))
+    
