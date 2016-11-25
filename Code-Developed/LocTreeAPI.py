@@ -57,14 +57,14 @@ def LoadingFinished(reqid):
     
     while resp2.text[14:21] == "waiting":
         resp2=requests.get(url="https://rostlab.org/~loctree3/qjobstat.php",params=arg2)
-        print(resp2.text)
+        #print(resp2.text)
         time.sleep(10)
     while resp2.text[14:21]=="running":
         resp2=requests.get(url="https://rostlab.org/~loctree3/qjobstat.php",params=arg2)
-        print(resp2.text)
+        #print(resp2.text)
         time.sleep(10)
     
-    print("Loading has finished")
+    #print("Loading has finished")
     return True
        
     
